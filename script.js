@@ -5,82 +5,71 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
 {
-enunciado: "Qual o seu nível de conhecimento sobre o Reino Fungi ?",
+enunciado: "Qual o seu nível de conhecimento sobre Botânica ?",
 alternativas: [
 {
 texto: "Baixo",
 
-afirmacao: "Você sabe apenas a base sobre o Reino Fungi "
+afirmacao: "Você sabe apenas a base sobre Botânica "
 },
 {
 texto: "Médio",
 
-afirmacao: "Você tem um bom entendimento sobre o Reino Fungi. "
+afirmacao: "Você tem um bom entendimento sobre Botânica. "
 },
 {
 texto: "Alto",
 
-afirmacao: "Você tem tem um conhecimento aprofundado sobre o Reino Fungi"
+afirmacao: "Você tem tem um conhecimento aprofundado sobre Botânica"
 }
 ]
 },
 {
-enunciado: "1 - Qual dos seguintes ambientes é propício para o crescimento de fungos?",
+enunciado: "1 -  Qual é a função principal das raízes nas plantas ?",
 alternativas: [
 {
-texto: "a)  Locais úmidos e quentes",
+texto: "a)  Armazenar água e nutrientes",
 
-afirmacao: " 1-A) Esta alternativa esta correta pois os fungos se desenvolvem melhor em ambientes com alta umidade e temperatura, favorecendo seu crescimento e reprodução." 
+afirmacao: " 1-A) Esta alternativa esta correta pois as raízes das plantas têm como função principal absorver água e nutrientes do solo, além de ancorar a planta no substrato." 
 },
 {
-texto: "b) Locais secos e frios",
+texto: "b) Realizar fotossíntese",
 
 afirmacao: " Está alternativa está incorreta. "
 },
 {
-texto: "c) Locais ensolarados",
-afirmacao: "Está alternativa está incorreta. "
-},
-{
-texto: "d) Locais ventilados",
+texto: "c) Produzir sementes",
 afirmacao: "Está alternativa está incorreta. "
 }
-
 ]
-},
 {
-enunciado: "2 - Qual é a principal função dos fungos no ecossistema?",
+enunciado: "2 - O que é a clorofila nas plantas ?",
 alternativas: [
 {
-texto: "a) Realizar fotossíntese",
+texto: "a) Uma substância responsável pela coloração das flores",
 afirmacao: "Está alternativa está incorreta. "
 },
 {
-texto: "b) Decompor matéria orgânica",
+texto: "b) Um pigmento responsável pela fotossíntese",
 
-afirmacao: "2-B) Está alternativa está correta pois os fungos desempenham um papel fundamental na decomposição de matéria orgânica, contribuindo para o ciclo de nutrientes no ecossistema. "
+afirmacao: "2-B) Está alternativa está correta pois a clorofila é o pigmento responsável por captar a energia luminosa necessária para o processo de fotossíntese, fundamental para a produção de alimentos pelas plantas.. "
 
 },
 {
-texto: "c) Produzir oxigênio",
+texto: "c) Uma enzima que regula o crescimento das raízes",
 afirmacao: "Está altenativa está incorreta. "
-},
-{
-texto: "d) Regular a temperatura do ambiente",
-afirmacao: "Está alternativa está incorreta. "
 }
 ]
-},
 {
-enunciado: "3 - Quais desses alimentos são mais propensos a serem contaminados por fungos ?",
+enunciado: "3 - Qual é a estrutura das plantas responsável pela reprodução sexuada ?",
 alternativas: [
 {
-texto: "a) Frutas frescas",
+texto: "a) Caule",
 afirmacao: "Está alternativa está incorreta. "
 },
 {
-texto: "b) Pães e bolos úmidos",
-afirmacao: "3-B) Está alternativa está correta pois alimentos ricos em umidade, como pães e bolos, são mais suscetíveis à contaminação por fungos devido às condições ideais para seu crescimento. "
+texto: "b) Flor",
+afirmacao: "3-B) Está alternativa está correta pois aflor é a estrutura das plantas responsável pela reprodução sexuada, onde ocorrem os processos de polinização e fecundação, resultando na formação de sementes e frutos. "
 
 },
 {
@@ -90,7 +79,7 @@ afirmacao: "Está alternativa está incorreta. "
 },
 
 {
-texto: "d) Legumes secos",
+texto: "d)  Folha",
 afirmacao: "Está alternativa está incorreta. "
 
 }
