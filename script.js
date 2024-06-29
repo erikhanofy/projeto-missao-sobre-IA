@@ -73,20 +73,11 @@ afirmacao: "3-B) Está alternativa está correta pois aflor é a estrutura das p
 
 },
 {
-texto: "c) Carnes frescas",
+texto: "c)  Folha",
 afirmacao: "Está alternativa está incorreta. "
-
-},
-
-{
-texto: "d)  Folha",
-afirmacao: "Está alternativa está incorreta. "
-
 }
 ]
-}
-  
-
+{
 ];
 let atual = 0;
 let perguntaAtual;
