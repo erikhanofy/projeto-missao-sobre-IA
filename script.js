@@ -5,7 +5,7 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
 {
-enunciado: "Qual o seu nível de conhecimento sobre Botânica ?",
+enunciado: "Qual o seu nível de conhecimento sobre Botânica?",
 alternativas: [
 {
 texto: "Baixo",
@@ -25,7 +25,7 @@ afirmacao: "Você tem tem um conhecimento aprofundado sobre Botânica"
 ]
 },
 {
-enunciado: "1 -  Qual é a função principal das raízes nas plantas ?",
+enunciado: "1 - Qual é a função principal das raízes nas plantas?",
 alternativas: [
 {
 texto: "a)  Armazenar água e nutrientes",
@@ -40,10 +40,16 @@ afirmacao: " Está alternativa está incorreta. "
 {
 texto: "c) Produzir sementes",
 afirmacao: "Está alternativa está incorreta. "
-}
-]
+},
 {
-enunciado: "2 - O que é a clorofila nas plantas ?",
+texto: "d) Todas as alternativas estão corretas",
+afirmacao: "Está alternativa está incorreta. "
+}
+
+]
+},
+{
+enunciado: "2 - O que é a clorofila nas plantas?",
 alternativas: [
 {
 texto: "a) Uma substância responsável pela coloração das flores",
@@ -52,14 +58,19 @@ afirmacao: "Está alternativa está incorreta. "
 {
 texto: "b) Um pigmento responsável pela fotossíntese",
 
-afirmacao: "2-B) Está alternativa está correta pois a clorofila é o pigmento responsável por captar a energia luminosa necessária para o processo de fotossíntese, fundamental para a produção de alimentos pelas plantas.. "
+afirmacao: "2-B) Está alternativa está correta pois a clorofila é o pigmento responsável por captar a energia luminosa necessária para o processo de fotossíntese, fundamental para a produção de alimentos pelas plantas. "
 
 },
 {
 texto: "c) Uma enzima que regula o crescimento das raízes",
 afirmacao: "Está altenativa está incorreta. "
+},
+{
+texto: "d) Todas as alternativas estão corretas",
+afirmacao: "Está alternativa está incorreta. "
 }
 ]
+},
 {
 enunciado: "3 - Qual é a estrutura das plantas responsável pela reprodução sexuada ?",
 alternativas: [
@@ -69,15 +80,24 @@ afirmacao: "Está alternativa está incorreta. "
 },
 {
 texto: "b) Flor",
-afirmacao: "3-B) Está alternativa está correta pois aflor é a estrutura das plantas responsável pela reprodução sexuada, onde ocorrem os processos de polinização e fecundação, resultando na formação de sementes e frutos. "
+afirmacao: "3-B) Está alternativa está correta pois a flor é a estrutura das plantas responsável pela reprodução sexuada, onde ocorrem os processos de polinização e fecundação, resultando na formação de sementes e frutos. "
 
 },
 {
-texto: "c)  Folha",
+texto: "c) Folha",
 afirmacao: "Está alternativa está incorreta. "
+
+},
+
+{
+texto: "d) Todas as alternativas estão corretas",
+afirmacao: "Está alternativa está incorreta. "
+
 }
 ]
-{
+}
+
+
 ];
 let atual = 0;
 let perguntaAtual;
