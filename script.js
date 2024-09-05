@@ -10,17 +10,23 @@ alternativas: [
 {
 texto: "Baixo",
 
-afirmacao: "Você sabe apenas a base sobre Botânica "
+afirmacao:[ "Você sabe apenas a base sobre Botânica ",
+            "Seu nivel de conhecimento é razoavel",
+            "Continue se esforçando"]
 },
 {
 texto: "Médio",
 
-afirmacao: "Você tem um bom entendimento sobre Botânica. "
+afirmacao: ["Você tem um bom entendimento sobre Botânica. ",
+            "Seu nivel de conhecimento sobre esse assunto é bom",
+            "Realização de exercícios pode te dar ainda mais conhecimento sobre esse assunto"]
 },
 {
 texto: "Alto",
 
-afirmacao: "Você tem tem um conhecimento aprofundado sobre Botânica"
+afirmacao: ["Você tem tem um conhecimento aprofundado sobre Botânica",
+            "Parabéns pelo seu conhecimento, continue assim",
+            "Sempre dedique pelo menos 1h do seu dia para os estudos"]
 }
 ]
 },
